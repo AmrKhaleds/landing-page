@@ -37,4 +37,105 @@ textarea {
   outline: none;
   overflow: auto;
 }
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(300deg, #41e0d8 65%, white 10%);
+  display: flex;
+  justify-content: center;
+}
+
+header .container {
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+header .navbar {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: none;
+}
+
+header .navbar .logo {
+  margin: 5px 0 5px 0;
+  width: 70px;
+  height: 70px;
+  outline: hidden;
+}
+
+header .navbar .nav-links ul .link {
+  display: inline-block;
+  margin: 35px;
+}
+
+header .navbar .nav-links ul .link1 a {
+  color: white;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header .navbar .nav-links ul .link1 a:hover {
+  color: #262a34;
+  transition: 0.3s ease-in-out;
+}
+
+header .navbar .nav-links ul .link2 a {
+  padding: 14px 46px;
+  color: white;
+  background-color: #262a34;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header .navbar .nav-links ul .link2 a:hover {
+  background: none;
+  color: #262a34;
+  transition: 0.3s ease-in-out;
+}
+
+header .banner .banner-img {
+  position: absolute;
+  width: 340px;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 20%;
+}
+
+header .banner .banner-info {
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+}
+
+header .banner .banner-info h1 {
+  color: #262a34;
+  margin-bottom: 70px;
+}
+
+header .banner .banner-info h1 span {
+  color: white;
+}
+
+header .banner .banner-info p {
+  color: white;
+}
+
+header .banner .banner-info a img {
+  margin-top: 70px;
+  width: 170px;
+  transition: 0.3s ease-in-out;
+}
+
+header .banner .banner-info a img:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+}
 /*# sourceMappingURL=style.css.map */
